@@ -1,0 +1,84 @@
+@import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body{
+	font-family: 'Muli', sans-serif;
+}
+.headerbg{
+	background: url('../img/bg-top.png');
+	background-size: cover;
+	color: #fff;
+	padding: 20px;
+}
+.logo{
+	width: 40%;
+	margin-top: 20%;
+}
+.badgeapstore{
+	width: 40%;
+	margin: 8%;
+}
+.badgeapstore:hover{
+	opacity:  0.8;
+}
+.mainscreen{
+	width: 60%;
+}
+.section1,.section2{
+	padding-top: 50px;
+	padding-left:  20px;
+	padding-right: 20px;
+	color: #161616;
+}
+.screen1,.screen2{
+	width: 70%;
+}
+.textsection1,.textsection2{
+	margin-top: 30%;
+}
+.supportdiv{
+	background: url('../img/bg-bottom.png');
+	background-size: cover;
+	color: #fff;
+	padding: 40px 20px;
+}
+.supportdiv button{
+	background: #fff;
+	color: #fc3232;
+	height: 60px;
+	width: 80%;
+	margin-top: 10%;
+	padding: 10px;
+	border-radius: 80px 80px 80px 80px;
+	-moz-border-radius: 80px 80px 80px 80px;
+	-webkit-border-radius: 80px 80px 80px 80px;
+	border: 0px solid #000000;
+}
+.supportdiv button:hover{
+	background: #fc3232;
+	color: #fff;
+}
+.footer{
+	background: #181818;
+	padding: 70px;
+}
+.logofooter{
+	width: 100%;
+}
+/* Media query's adjustement */
+@media screen and (max-width: 460px){
+	.logo{
+		width: 80%;
+		margin-top: 10%;
+	}
+	.badgeapstore{
+		width: 80%;
+		margin-top: 8%;
+	}
+	.textsection1,.textsection2{
+	margin-top: 15%;
+	font-size: 75%;
+	}
+	.screen1,.screen2{
+	width: 100%;
+	}
+}
